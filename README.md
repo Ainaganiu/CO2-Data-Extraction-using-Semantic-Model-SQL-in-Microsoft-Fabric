@@ -39,3 +39,18 @@ In this project we make use of two approach to query the dataset. We use the vis
 Also the view query also has the ability to generate the sql codes for the steps we performed using drag and drop features of the visual query
 
 ![sql codes](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/sqlcodes.png)
+
+**Ouput**
+![visualQueryResult](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/visualqueryoutput.png)
+
+## Query with SQL Codes
+
+This SQL code in picture below is a query that retrieves aggregated information about carbon emissions and fuel consumption from two tables: [CO2_2021] and [US power plant locations]. The data is grouped by various columns, and aggregate functions are used to calculate total and average emissions, as well as total fuel consumption. Here's a breakdown of the code:
+
+![SQL Codes](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/sqlqueriescodes.png)
+
+**Output**
+
+![query output](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/queryoutput.png)
+
+![output visual 2](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/graphlsql.png)
