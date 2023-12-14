@@ -54,3 +54,5 @@ This SQL code in picture below is a query that retrieves aggregated information 
 ![query output](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/queryoutput.png)
 
 ![output visual 2](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/graphlsql.png)
+
+The examination uncovered that Texas, Florida, and Pennsylvania exhibit the highest levels of CO2 emissions. Notably, Texas surpasses Florida's CO2 emissions by a factor of two. This underscores the necessity for additional investigation into the root causes of elevated CO2 levels in the state of Texas
