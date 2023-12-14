@@ -18,3 +18,24 @@ Table 1: CO2_2021
 
 Table 2: Location
 ![Table 2](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/table2.png)
+
+#Data Modelling
+
+The two tables were merge together using common keys in both common tables *PlantID* using Many-to_One as the relationship (Cardinality)
+
+![model](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/model.png)
+
+#Data Query
+
+In this project we make use of two approach to query the dataset. We use the visualize quary capabilities in Semantic Model in of Microsoft Fabric to query the dataset. The folloing steps were performed.
+1. Ingesting from the source data
+2. Viewing the table
+3. Choosing the desired columns
+4. Filtering by columns
+5. Group values using Aggregation
+
+![visual Query 1](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/visualquery1.png)
+
+Also the view query also has the ability to generate the sql codes for the steps we performed using drag and drop features of the visual query
+
+![sql codes](https://github.com/Ainaganiu/CO2-Data-Extraction-using-Semantic-Model-SQL-in-Microsoft-Fabric/blob/main/Pictures/sqlcodes.png)
